@@ -1,4 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-size: 18px;
+  font-family: 'Barlow', sans-serif;
+  background: #ffffff;
+}
+/* Gallery Section */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(187px, 1fr));
+}
+.gallery__first-image {
+  background: no-repeat url(../images/mobile/image-gallery-milkbottles.jpg);
+}
+.gallery__second-image {
+  background: no-repeat url(../images/mobile/image-gallery-orange.jpg);
+}
+.gallery__third-image {
+  background: no-repeat url(../images/mobile/image-gallery-cone.jpg);
+}
+.gallery__fourth-image {
+  background: no-repeat url(../images/mobile/image-gallery-sugar-cubes.jpg);
+}
+.gallery__image {
+  background-size: cover;
+  background-position: center;
+  height: 187px;
+}
 /* Attribution section */
 .attribution {
   font-size: 11px;
