@@ -20,14 +20,56 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 30px 20px 0;
+  position: relative;
 }
 .header__menu-button {
   background: transparent;
   border: none;
   cursor: pointer;
 }
-.header__menu {
+.header__navigation {
   display: none;
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  top: 105px;
+  background: #ffffff;
+  padding: 35px 0;
+}
+.header__navigation.open {
+  display: block;
+}
+.header__navigation__triangle {
+  display: inline-block;
+  height: 0;
+  width: 0;
+  border-bottom: 25px solid #ffffff;
+  border-left: 25px solid transparent;
+  position: absolute;
+  top: -25px;
+  right: 0px;
+}
+.header__menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.header__menu__item {
+  margin-bottom: 35px;
+}
+.header__menu__link {
+  text-decoration: none;
+  color: hsl(232, 10%, 55%);
+}
+.header__menu__contact-link {
+  background: hsl(51, 100%, 49%);
+  color: hsl(212, 27%, 19%);
+  font-family: 'Fraunces', serif;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 30px;
 }
 .header__title {
   color: #ffffff;
