@@ -8,6 +8,39 @@ body {
   font-family: 'Barlow', sans-serif;
   background: #ffffff;
 }
+/* Intro Section */
+.intro {
+  background: url(../images/mobile/image-header.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 525px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px 0;
+}
+.header__menu-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.header__menu {
+  display: none;
+}
+.header__title {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Fraunces', serif;
+  font-size: 42px;
+  letter-spacing: 0.14em;
+  margin: 75px 0 50px;
+}
+.header__arrow {
+  text-align: center;
+}
 /* Gallery Section */
 .gallery {
   display: grid;
