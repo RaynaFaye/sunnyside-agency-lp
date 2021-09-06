@@ -14,8 +14,10 @@
         <div>
           <img src="images/logo.svg" alt="SunnySide" />
         </div>
-        <button class="header__menu-button"><img src="images/icon-hamburger.svg" alt="Menu" /></button>
-        <nav class="header__navigation">
+        <button class="header__menu-button" aria-controls="header__navigation" aria-expanded="false">
+          <img src="images/icon-hamburger.svg" alt="Menu" />
+        </button>
+        <nav class="header__navigation" id="header__navigation">
           <div class="header__navigation__triangle"></div>
           <ul class="header__menu">
             <li class="header__menu__item"><a href="" class="header__menu__link">About</a></li>
