@@ -86,28 +86,49 @@ body {
 /* Transform Section */
 .transform__image {
   background: no-repeat url(../images/mobile/image-transform.jpg);
+}
+.transform__text-block__line {
+  background-color: hsl(51, 93%, 89%);
+}
+
+.transform__text-block__link:hover .transform__text-block__line {
+  background-color: hsl(51, 100%, 49%);
+}
+/* Stand out section */
+.standout__image {
+  background: url(../images/mobile/image-stand-out.jpg);
+}
+.standout__text-block__line {
+  background-color: hsl(7, 100%, 90%);
+}
+
+.standout__text-block__link:hover .standout__text-block__line {
+  background-color: hsl(7, 99%, 70%);
+}
+/* Main Section transform and standout same code */
+.main__image {
   background-position: center;
   background-size: cover;
   width: 100%;
   height: 300px;
 }
-.transform__text-block {
+.main__text-block {
   text-align: center;
-  padding: 50px 20px;
+  padding: 50px 25px;
 }
-.transform__text-block__title {
+.main__text-block__title {
   font-family: 'Fraunces', serif;
   font-size: 30px;
   font-weight: 900;
   color: hsl(212, 27%, 19%);
   margin: 25px 0;
 }
-.transform__text-block__text {
+.main__text-block__text {
   color: hsl(232, 10%, 55%);
   line-height: 1.5;
   margin: 20px 0;
 }
-.transform__text-block__link {
+.main__text-block__link {
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
@@ -116,7 +137,7 @@ body {
   font-size: 16px;
   color: hsl(212, 27%, 19%);
 }
-.line {
+.main__text-block__line {
   z-index: -1;
   position: absolute;
   bottom: -3px;
@@ -124,11 +145,7 @@ body {
   display: inline-block;
   height: 10px;
   width: 135px;
-  background-color: hsl(51, 100%, 82%);
   border-radius: 10px;
-}
-.transform__text-block__link:hover .line {
-  background-color: hsl(51, 100%, 49%);
 }
 /* Gallery Section */
 .gallery {
