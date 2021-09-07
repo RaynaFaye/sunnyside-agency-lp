@@ -87,6 +87,9 @@ body {
 .transform__image {
   background: no-repeat url(../images/mobile/image-transform.jpg);
 }
+.transform__text-block__title {
+  color: hsl(212, 27%, 19%);
+}
 .transform__text-block__line {
   background-color: hsl(51, 93%, 89%);
 }
@@ -98,6 +101,9 @@ body {
 .standout__image {
   background: url(../images/mobile/image-stand-out.jpg);
 }
+.standout__text-block__title {
+  color: hsl(212, 27%, 19%);
+}
 .standout__text-block__line {
   background-color: hsl(7, 100%, 90%);
 }
@@ -105,51 +111,24 @@ body {
 .standout__text-block__link:hover .standout__text-block__line {
   background-color: hsl(7, 99%, 70%);
 }
-/* Graphic Design section */
+/* Graphic Design section and Photography section*/
 .graphic {
   background: url(../images/mobile/image-graphic-design.jpg);
-  background-position: center;
-  background-size: cover;
 }
 .graphic__text-block {
-  font-size: 16px;
-  padding: 400px 15px 50px;
-  text-align: center;
   color: hsl(167, 40%, 24%);
-  line-height: 1.5;
 }
-.graphic__text-block__title {
-  font-family: 'Fraunces', serif;
-  font-size: 30px;
-  font-weight: 900;
-  margin: 25px 0;
-}
-.graphic__text-block__text {
-  margin: 15px 0;
-}
-/* Photography section */
-.photography {
-  background: url(../images/mobile/image-photography.jpg);
-  background-position: center;
-  background-size: cover;
-}
-.photography__text-block {
-  font-size: 16px;
-  padding: 400px 15px 50px;
-  text-align: center;
-  color: hsl(198, 62%, 26%);
-  line-height: 1.5;
-}
-.photography__text-block__title {
-  font-family: 'Fraunces', serif;
-  font-size: 30px;
-  font-weight: 900;
-  margin: 25px 0;
-}
+.graphic__text-block__text,
 .photography__text-block__text {
   margin: 15px 0;
 }
-/* Main Section transform and standout same code */
+.photography {
+  background: url(../images/mobile/image-photography.jpg);
+}
+.photography__text-block {
+  color: hsl(198, 62%, 26%);
+}
+/* Main Section transform and standout same code, graphix design and phtography same code. Title class for all sections */
 .main__image {
   background-position: center;
   background-size: cover;
@@ -164,7 +143,6 @@ body {
   font-family: 'Fraunces', serif;
   font-size: 30px;
   font-weight: 900;
-  color: hsl(212, 27%, 19%);
   margin: 25px 0;
 }
 .main__text-block__text {
@@ -190,6 +168,16 @@ body {
   height: 10px;
   width: 135px;
   border-radius: 10px;
+}
+.main__back-image {
+  background-position: center;
+  background-size: cover;
+}
+.main__text-block-two {
+  font-size: 16px;
+  padding: 400px 15px 50px;
+  text-align: center;
+  line-height: 1.5;
 }
 /* Gallery Section */
 .gallery {
