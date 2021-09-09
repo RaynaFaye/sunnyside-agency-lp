@@ -179,6 +179,46 @@ body {
   text-align: center;
   line-height: 1.5;
 }
+/* Testimonial section */
+.testimonials {
+  padding: 50px 25px 100px;
+  text-align: center;
+}
+.testimonials__title {
+  text-transform: uppercase;
+  color: hsl(210, 4%, 67%);
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  font-size: 18px;
+  letter-spacing: 0.25em;
+}
+.testimonials__block {
+  margin: 50px 0 0 0;
+}
+.testimonials__block__image {
+  border-radius: 50%;
+  width: 20%;
+  margin-bottom: 25px;
+}
+.testimonials__block__text {
+  margin: 0 0 25px 0;
+  color: hsl(213, 9%, 39%);
+  line-height: 1.5;
+}
+.testimonials__block__author-block {
+  display: flex;
+  flex-direction: column;
+}
+.testimonials__block__author {
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  color: hsl(212, 27%, 19%);
+  margin-bottom: 10px;
+}
+.testimonials__block__job {
+  color: hsl(210, 4%, 67%);
+  font-size: 14px;
+}
 /* Gallery Section */
 .gallery {
   display: grid;
