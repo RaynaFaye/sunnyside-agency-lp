@@ -342,4 +342,42 @@ body {
     font-size: 58px;
     margin: 75px 0 100px;
   }
+  /* Gallery Section */
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .gallery__first-image {
+    background: no-repeat url(../images/desktop/image-gallery-milkbottles.jpg);
+  }
+  .gallery__second-image {
+    background: no-repeat url(../images/desktop/image-gallery-orange.jpg);
+  }
+  .gallery__third-image {
+    background: no-repeat url(../images/desktop/image-gallery-cone.jpg);
+  }
+  .gallery__fourth-image {
+    background: no-repeat url(../images/desktop/image-gallery-sugarcubes.jpg);
+  }
+  .gallery__image {
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+  }
+  /* Footer Section */
+  .footer {
+    padding: 75px 30px 25px;
+  }
+  .footer__logo {
+    width: auto;
+  }
+  .footer__logo img {
+    width: 15%;
+  }
+  .footer__menu {
+    justify-content: center;
+  }
+  .footer__menu__item {
+    margin: 0 30px;
+  }
 }
