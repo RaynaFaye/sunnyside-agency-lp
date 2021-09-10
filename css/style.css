@@ -342,6 +342,64 @@ body {
     font-size: 58px;
     margin: 75px 0 100px;
   }
+  /* Main section */
+  .main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  /* Transform Section and Stand out Section */
+  .transform {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .transform__image {
+    background: no-repeat url(../images/desktop/image-transform.jpg);
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .standout {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .standout__image {
+    background: url(../images/desktop/image-stand-out.jpg);
+  }
+  .transform__text-block__title,
+  .standout__text-block__title {
+    font-size: 40px;
+  }
+  /* Graphic Design section and Photography section*/
+  .graphic {
+    background: no-repeat url(../images/desktop/image-graphic-design.jpg);
+  }
+  .photography {
+    background: no-repeat url(../images/desktop/image-photography.jpg);
+  }
+  /* Main Section transform and standout same code, graphix design and phtography same code. Title class for all sections */
+  .main__image {
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+  }
+  .main__text-block {
+    text-align: left;
+    padding: 50px 130px;
+    display: grid;
+    align-content: center;
+  }
+  .main__text-block__text {
+    margin: 20px 0 50px;
+  }
+  .main__back-image {
+    background-position: center;
+    background-size: cover;
+  }
+  .main__text-block-two {
+    font-size: 18px;
+    padding: 400px 150px 50px;
+  }
   /* Gallery Section */
   .gallery {
     display: grid;
