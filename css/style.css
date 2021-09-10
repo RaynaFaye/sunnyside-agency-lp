@@ -298,3 +298,48 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media all and (min-width: 768px) {
+  /* Intro Section */
+  .intro {
+    background: url(../images/desktop/image-header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+  }
+  .header {
+    padding: 25px 50px 0;
+  }
+  .header__image {
+    width: 120%;
+  }
+  .header__menu-button {
+    display: none;
+  }
+  .header__navigation {
+    display: block;
+    position: initial;
+    background: none;
+  }
+  .header__navigation__triangle {
+    display: none;
+  }
+  .header__menu {
+    display: flex;
+  }
+  .header__menu__item {
+    margin-bottom: 0px;
+    margin-left: 30px;
+  }
+  .header__menu__link {
+    color: #ffffff;
+  }
+  .header__menu__contact-link {
+    background: #ffffff;
+    color: hsl(212, 27%, 19%);
+  }
+  .header__title {
+    font-size: 58px;
+    margin: 75px 0 100px;
+  }
+}
