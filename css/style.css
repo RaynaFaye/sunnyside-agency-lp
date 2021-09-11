@@ -400,6 +400,30 @@ body {
     font-size: 18px;
     padding: 400px 150px 50px;
   }
+  /* Testimonial section */
+  .testimonials {
+    grid-column: 1/ -1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 40px;
+    padding: 150px;
+  }
+  .testimonials__title {
+    grid-column: 1 / -1;
+    font-size: 20px;
+  }
+  .testimonials__block {
+    margin-top: 25px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
+  .testimonials__block__image {
+    margin-bottom: 50px;
+    justify-self: center;
+  }
+  .testimonials__block__text {
+    margin-bottom: 50px;
+  }
   /* Gallery Section */
   .gallery {
     display: grid;
