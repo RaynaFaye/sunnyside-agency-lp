@@ -299,7 +299,7 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
-@media all and (min-width: 768px) {
+@media all and (min-width: 690px) {
   /* Intro Section */
   .intro {
     background: url(../images/desktop/image-header.jpg);
@@ -385,7 +385,7 @@ body {
   }
   .main__text-block {
     text-align: left;
-    padding: 50px 130px;
+    padding: 50px;
     display: grid;
     align-content: center;
   }
@@ -398,7 +398,7 @@ body {
   }
   .main__text-block-two {
     font-size: 18px;
-    padding: 400px 150px 50px;
+    padding: 400px 50px 50px;
   }
   /* Testimonial section */
   .testimonials {
@@ -461,5 +461,20 @@ body {
   }
   .footer__menu__item {
     margin: 0 30px;
+  }
+}
+@media all and (min-width: 982px) {
+  /* Main Section transform and standout same code, graphix design and phtography same code. Title class for all sections */
+  .main__text-block {
+    padding: 50px 130px;
+  }
+  .main__text-block-two {
+    padding: 400px 150px 50px;
+  }
+}
+@media all and (min-width: 1440px) {
+  /* Testimonial section */
+  .testimonials {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
